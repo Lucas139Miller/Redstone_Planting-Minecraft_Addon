@@ -1,0 +1,8 @@
+{
+ "format_version":
+  [ 1,  1, 0 ],
+ "miller:plant_block": {
+  "textures": "plant_block1",
+  "sound": "stone"
+ }
+}

@@ -1,0 +1,36 @@
+{ 
+  "format_version": "1.21.0", 
+  "minecraft:block": { 
+    "description": { 
+      "identifier": "miller:plant_block",
+      "menu_category": {
+        "category": "items",
+        "is_hidden_in_commands": false
+      }
+    }, 
+    "components": { 
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:material_instances": {
+
+        "down":{
+          "texture":"plant_block_down"
+        },
+        "up":{
+          "texture":"plant_block_up"
+        },
+        "north":{
+          "texture":"plant_block_side"
+        },
+        "east":{
+          "texture":"plant_block_side"
+        },
+        "south":{
+          "texture":"plant_block_side"
+        },
+        "west":{
+          "texture":"plant_block_side"
+        }
+      }
+    } 
+  } 
+}

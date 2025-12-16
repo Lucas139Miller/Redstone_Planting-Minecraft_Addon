@@ -1,0 +1,29 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Redstone plating - Behavior",
+        "description": "Addon for planting with redstone",
+        "uuid": "b950b296-5491-4b00-b58c-7586a97c0b21",
+        "version": [0, 0, 1],
+        "min_engine_version": [1, 21, 0]
+    },
+    "metadata": {
+        "product_type": "addon",
+        "authors": [ "Miller" ],
+        "url": "https://www.youtube.com/@LucasMiller-c2k"
+    },
+    "modules": [
+        {
+            "type": "data",
+            "description": "Addon for planting with redstone",
+            "uuid": "51b45f93-47d4-4968-a6e9-71dc8dd65a34",
+            "version": [0, 0, 1]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "c62fd6dc-21c2-49e8-943d-51e9e0314384",
+            "version": [0, 0, 1]
+        }
+    ]
+}
