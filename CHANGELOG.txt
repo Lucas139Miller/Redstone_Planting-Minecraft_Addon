@@ -1,0 +1,14 @@
+Redstone Planting
+
+[Version: 0.0.1]
+
+-WHAT'S NEW:
+
+-Plant_Block added! 
+
+DESCRIPTION:
+
+-Plant block has no function yet. 
+-It is a simple block that has texture well defined in cardinal directions
+-It can be owned through commando "give @[person] miller:plant_block" or in creative 
+inventory within items category
