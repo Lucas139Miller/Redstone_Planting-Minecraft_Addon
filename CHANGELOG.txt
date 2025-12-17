@@ -3,9 +3,15 @@ Redstone Planting
 [Version: 0.0.1]
 
 -WHAT'S NEW:
--Inserted Script for Plant_Block
-
+-Plant_Block updates
+	>new state is_powered
+	>new state activated
 DESCRIPTION:
 
--Script main.js added for testing, just sending "Hello World" on world's chat 
-at every tick.
+-Now it has states
+	>miller:is_powered: boolean | it will alert if block is connected to redstone
+	:miller>activated: boolean | it will alert if block is acting
+
+NOTE 
+
+-States NEED TO BE CORRECTLY NAMESPACED

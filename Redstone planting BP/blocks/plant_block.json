@@ -3,6 +3,11 @@
   "minecraft:block": { 
     "description": { 
       "identifier": "miller:plant_block",
+
+      "states":{
+        "miller:is_powered": [false,true],
+        "miller:activated": [false, true]
+      },
       "menu_category": {
         "category": "items",
         "is_hidden_in_commands": false
