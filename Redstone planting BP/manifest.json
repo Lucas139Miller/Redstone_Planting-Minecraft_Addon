@@ -18,12 +18,25 @@
             "description": "Addon for planting with redstone",
             "uuid": "51b45f93-47d4-4968-a6e9-71dc8dd65a34",
             "version": [0, 0, 1]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/main.js",
+            "description": "main.js - allows Plant BLock to dettect redstone blocks",
+            "uuid": "ca71be50-407b-465e-8a45-febbee6c7368",
+            "version": [0, 0, 1]
         }
     ],
     "dependencies": [
         {
             "uuid": "c62fd6dc-21c2-49e8-943d-51e9e0314384",
             "version": [0, 0, 1]
+        },
+        {
+            //FOR SCRIPTING API
+            "module_name": "@minecraft/server",
+            "version": "2.3.0"
         }
     ]
 }
