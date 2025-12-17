@@ -13,12 +13,11 @@
         "is_hidden_in_commands": false
       }
     }, 
-    "components": { 
+    "components": {
       "minecraft:geometry": "minecraft:geometry.full_block",
       "minecraft:material_instances": {
-
         "down":{
-          "texture":"plant_block_down"
+        "texture":"plant_block_down"
         },
         "up":{
           "texture":"plant_block_up"
@@ -36,6 +35,60 @@
           "texture":"plant_block_side"
         }
       }
-    } 
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('miller:activated') == false",
+        "components": {
+          "minecraft:material_instances": {
+            "down":{
+            "texture":"plant_block_down"
+            },
+            "up":{
+              "texture":"plant_block_up"
+            },
+            "north":{
+              "texture":"plant_block_side"
+            },
+            "east":{
+              "texture":"plant_block_side"
+            },
+            "south":{
+              "texture":"plant_block_side"
+            },
+            "west":{
+              "texture":"plant_block_side"
+            }
+          }    
+
+        }
+      },
+      {
+        "condition": "query.block_state('miller:activated') == true",
+        "components": {
+          "minecraft:material_instances": {
+            "down":{
+            "texture":"powered_plant_block_down"
+            },
+            "up":{
+              "texture":"powered_plant_block_up"
+            },
+            "north":{
+              "texture":"powered_plant_block_side"
+            },
+            "east":{
+              "texture":"powered_plant_block_side"
+            },
+            "south":{
+              "texture":"powered_plant_block_side"
+            },
+            "west":{
+              "texture":"powered_plant_block_side"
+            }
+          }    
+
+        }
+      }
+    ]
   } 
 }

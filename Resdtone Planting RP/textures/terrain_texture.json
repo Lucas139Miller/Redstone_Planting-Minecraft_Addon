@@ -19,10 +19,21 @@
         "textures/blocks/plant_block_upper"
       ] 
     },
-    "plant_block_side": { 
+    "powered_plant_block_side": { 
       "textures": [
-        "textures/blocks/plant_block_side"
+        "textures/blocks/powered_plant_block_side"
       ] 
-    } 
+    },
+    "powered_plant_block_down": { 
+      "textures": [
+        "textures/blocks/powered_plant_block_bottom"
+      ] 
+    },
+    "powered_plant_block_up": { 
+      "textures": [
+        "textures/blocks/powered_plant_block_upper"
+      ] 
+    }
+
   } 
 }

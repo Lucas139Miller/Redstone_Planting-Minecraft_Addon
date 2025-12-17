@@ -6,6 +6,7 @@ Redstone Planting
 -Plant_Block updates
 	>new state is_powered
 	>new state activated
+	>permutation por each state
 DESCRIPTION:
 
 -Now it has states
