@@ -1,6 +1,14 @@
-import { world, system } from "@minecraft/server";
+import { world } from "@minecraft/server";
 
-system.runInterval(() => {
-    // Spams the chat with "Hello World" with world.sendMessage function from the API
-    world.sendMessage("Hello World");
-}, 1);//roda a cada tick
+world.afterEvents.playerPlaceBlock.subscribe(ev => {
+    const { block, player } = ev;
+
+    // Mostra sempre o bloco colocado
+    player.sendMessage(`DEBUG: ${block.typeId}`);
+
+    // Só alerta se for o seu bloco
+    if (block.typeId === "miller:plant_block") {
+        const { x, y, z } = block.location;
+        player.sendMessage(`Detectado plant_block em X:${x} Y:${y} Z:${z}`);
+    }
+});

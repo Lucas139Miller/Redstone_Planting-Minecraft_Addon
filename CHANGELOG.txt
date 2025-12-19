@@ -3,16 +3,12 @@ Redstone Planting
 [Version: 0.0.1]
 
 -WHAT'S NEW:
--Plant_Block updates
-	>new state is_powered
-	>new state activated
-	>permutation por each state
+-Script update
+
 DESCRIPTION:
 
--Now it has states
-	>miller:is_powered: boolean | it will alert if block is connected to redstone
-	:miller>activated: boolean | it will alert if block is acting
+-Script who detect placed blocks and give informations about plant_block addded
 
 NOTE 
 
--States NEED TO BE CORRECTLY NAMESPACED
+-This script is not what we want, it is just a peace of test
