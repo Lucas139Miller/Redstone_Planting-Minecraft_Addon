@@ -3,12 +3,12 @@ Redstone Planting
 [Version: 0.0.1]
 
 -WHAT'S NEW:
--Script update
+-Script updated!
 
 DESCRIPTION:
-
--Script who detect placed blocks and give informations about plant_block addded
+-Script allows to plant only wheat for now, It's possible using command setblock
 
 NOTE 
-
--This script is not what we want, it is just a peace of test
+-Maybe the command may appears on chat because It's using player, not dimension.
+Try switch for solve in case really appears
+-For now, plant block works only at the moment It's placed by a player
