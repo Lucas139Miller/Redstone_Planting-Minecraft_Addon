@@ -1,0 +1,31 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "miller:craft_plant_block"
+        },
+        "tags": ["crafting_table"],
+        "pattern": [
+            "#I#",
+            "#S#",
+            "#R#"
+        ],
+        "key": {
+            "I": {
+                "item": "minecraft:iron_ingot"
+            },
+            "#": {
+                "item": "minecraft:cobblestone"
+            },
+            "S": {
+                "item": "minecraft:stick"
+            },
+            "R": {
+                "item": "minecraft:redstone"
+            }
+        },
+        "result": {
+            "item": "miller:plant_block"
+        }
+    }
+}

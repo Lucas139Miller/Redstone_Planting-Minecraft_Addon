@@ -3,11 +3,10 @@ Redstone Planting
 [Version: 0.0.1]
 
 -WHAT'S NEW:
--Plant BLock updated!
+-Plant Block updated!
 
 DESCRIPTION:
--Plant Block reacts correctly to redstone
+-Plant Block now has loot and recipe
 
 NOTE 
--Plant block detects redstone each 10 ticks and reacts at right conditions. But it plants
-ony wheat for now
+-Plant block stop be whatching after ext world, so it needs a save system 
