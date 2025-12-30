@@ -1,13 +1,11 @@
 Redstone Planting
 
-[Version: 0.0.1]
+[Version: 1.0.0]
 
 -WHAT'S NEW:
 -Plant Block updated!
 
 DESCRIPTION:
--Plant Block works after opening a existing world
--Plant block craft works
+-New Texture
 
 NOTE 
--Plant Block plants only wheat
