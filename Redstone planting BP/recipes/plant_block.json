@@ -2,30 +2,36 @@
     "format_version": "1.20.10",
     "minecraft:recipe_shaped": {
         "description": {
-            "identifier": "miller:craft_plant_block"
+            "identifier": "miller:plant_block"
         },
         "tags": ["crafting_table"],
         "pattern": [
             "#I#",
-            "#S#",
+            "#W#",
             "#R#"
         ],
         "key": {
-            "I": {
-                "item": "minecraft:iron_ingot"
-            },
             "#": {
                 "item": "minecraft:cobblestone"
             },
-            "S": {
-                "item": "minecraft:stick"
+            "I": {
+                "item": "minecraft:iron_ingot"
+            },
+            "W": {
+                "item": "minecraft:wheat_seeds"
             },
             "R": {
                 "item": "minecraft:redstone"
             }
         },
+        "unlock": [
+            {
+                "item": "minecraft:redstone"
+            }
+        ],
         "result": {
-            "item": "miller:plant_block"
+            "item": "miller:plant_block",
+            "count": 1
         }
     }
 }

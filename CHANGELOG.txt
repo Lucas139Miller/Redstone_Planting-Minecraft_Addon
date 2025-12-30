@@ -6,7 +6,8 @@ Redstone Planting
 -Plant Block updated!
 
 DESCRIPTION:
--Plant Block works after exting  world 
+-Plant Block works after opening a existing world
+-Plant block craft works
 
 NOTE 
--Plant Block recipe still doesn't working
+-Plant Block plants only wheat
