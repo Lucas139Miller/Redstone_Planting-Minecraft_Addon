@@ -6,7 +6,7 @@ Redstone Planting
 -Plant Block updated!
 
 DESCRIPTION:
--Plant Block now has loot and recipe
+-Plant Block works after exting  world 
 
 NOTE 
--Plant block stop be whatching after ext world, so it needs a save system 
+-Plant Block recipe still doesn't working

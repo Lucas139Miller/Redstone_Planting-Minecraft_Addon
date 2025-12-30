@@ -1,3 +1,0 @@
--Resolver save e load da lista de posições dos blocos customizados
- >observe que WorldInitialize foi retirado no formato 2.0 do minefest
- >não está funcionando script simples com runInterval()
