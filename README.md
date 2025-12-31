@@ -14,14 +14,14 @@ A block activated by redstone that plants wheat on a farmland.
 **Structure**
 
 
-- This block must be fed from below and farmland must be placed upon it. (Block will not be activated if not in the correct structure).
+This block must be fed from below and farmland must be placed upon it. (Block will not be activated if not in the correct structure).
 <p align="center">
 	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/plant_block_area.png" width="288px">
 </p>
 
 **Powering Plant Block**
 
-- Redstone block can be activated exclusively by *redstone wire*, *redstone block* and *redstone torch*.
+Redstone block can be activated exclusively by *redstone wire*, *redstone block* and *redstone torch*.
 <p align="center">
 	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/source1.gif" width="288px">
 </p>
@@ -34,11 +34,11 @@ A block activated by redstone that plants wheat on a farmland.
 	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/source3.gif" width="288px">
 </p>
 
-- The power signal must last at least 11 game ticks (higher than 0.5 seconds).
+The power signal must last at least 11 game ticks (higher than 0.5 seconds).
 
 **Acquiring Plant Block**
 
-- You can get a plant block:
+You can get a plant block:
 * Accessing by creative inventory on *"items"* category
 * You can get it through command line 
 ```
@@ -51,24 +51,27 @@ A block activated by redstone that plants wheat on a farmland.
 
 **Example of Plant Block use**
 
-- A good example of using Plant Block is and automatic wheat farm
+A good example of using Plant Block is and automatic wheat farm
 <p align="center">
 	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/farm.gif" width="288px">
 </p>
 
 **Video about this Addon**
 
-VIDEO 
+<p align="center">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/4-gi_rvKwxU?si=1QUUlg2DZMoJUGC_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</p>
+ 
 
 **WARNING**
 
-- This Addon requires cheats activated
-- Note that Minecraft Bedrock Edition has no specific redstone support for Addon creators, except for te actual Beta game version (this Addon was not made for Beta version). It was created using "no conventional tools" for redstone, as a result of this, avoid using too much Plant Bloks! It can lag your world - worry only if you use many of them!
-- At the moment, this addon allows just planting wheat, with not supply. I intend to
+* This Addon requires cheats activated
+* Note that Minecraft Bedrock Edition has no specific redstone support for Addon creators, except for te actual Beta game version (this Addon was not made for Beta version). It was created using "no conventional tools" for redstone, as a result of this, avoid using too much Plant Bloks! It can lag your world - worry only if you use many of them!
+* At the moment, this addon allows just planting wheat, with not supply. I intend to
 work on this block to make it plant other seeds, add an interface for refuel the seeds you want
 to plant, allow it to connect with hopper and maybe add new tool blocks later
-- Feel free for using this Addon and even publish content with this addon, but give me credits for my work
+* Feel free for using this Addon and even publish content with this addon, but give me credits for my work
 
 **Dowloading**
 
-- You have just to install *RedstonePlanting.mcaddon* and open with minecraft
+You have just to install *RedstonePlanting.mcaddon* and open with minecraft
