@@ -5,7 +5,7 @@ That's a simple addon that allows you for plating on Minecraft using redstone. P
 
 ## Plant Block
 
-![Plant Block view](git_data/block_view.png)
+![Plant Block view](./git_data/block_view.png)
 
 A block activated by redstone that plants wheat on a farmland. 
 
@@ -53,7 +53,7 @@ VIDEO
 
 **WARNING**
 
--This Addon requires cheats activated
+- This Addon requires cheats activated
 - Note that Minecraft Bedrock Edition has no specific redstone support for Addon creators, except for te actual Beta game version (this Addon was not made for Beta version). It was created using "no conventional tools" for redstone, as a result of this, avoid using too much Plant Bloks! It can lag your world - worry only if you use many of them!
 - At the moment, this addon allows just planting wheat, with not supply. I intend to
 work on this block to make it plant other seeds, add an interface for refuel the seeds you want
