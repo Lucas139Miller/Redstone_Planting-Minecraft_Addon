@@ -18,6 +18,7 @@ A block activated by redstone that plants wheat on a farmland.
 <p align="center">
 	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/plant_block_area.png" width="288px">
 </p>
+
 **Powering Plant Block**
 
 - Redstone block can be activated exclusively by *redstone wire*, *redstone block* and *redstone torch*.
@@ -46,12 +47,14 @@ A block activated by redstone that plants wheat on a farmland.
 <p align="center">
 	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/plant_block_recipe.png" width="288px">
 </p>
+
 **Example of Plant Block use**
 
 - A good example of using Plant Block is and automatic wheat farm
 <p align="center">
 	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/farm.gif" width="288px">
 </p>
+
 **Video about this Addon**
 
 VIDEO 
