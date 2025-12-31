@@ -15,19 +15,23 @@ A block activated by redstone that plants wheat on a farmland.
 
 
 - This block must be fed from below and farmland must be placed upon it. (Block will not be activated if not in the correct structure).
-
-<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/plant_block_area.png" width="288px">
-
+<p align="center">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/plant_block_area.png" width="288px">
+</p>
 **Powering Plant Block**
 
 - Redstone block can be activated exclusively by *redstone wire*, *redstone block* and *redstone torch*.
+<p align="center">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/source1.gif" width="288px">
+</p>
 
-<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/source1.gif" width="288px">
+<p align="center">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/source2.gif" width="288px">
+</p>
 
-<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/source2.gif" width="288px">
-
-<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/source3.gif" width="288px">
-
+<p align="center">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/source3.gif" width="288px">
+</p>
 - The power signal must last at least 11 game ticks (higher than 0.5 seconds).
 
 **Acquiring Plant Block**
@@ -39,15 +43,15 @@ A block activated by redstone that plants wheat on a farmland.
 	/give @s miller:plant_block
 ```
 * You can also get Plant Block in survival mode, using crafting table
-
-<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/plant_block_recipe.png" width="288px">
-
+<p align="center">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/plant_block_recipe.png" width="288px">
+</p>
 **Example of Plant Block use**
 
 - A good example of using Plant Block is and automatic wheat farm
-
-<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/farm.gif" width="288px">
-
+<p align="center">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/farm.gif" width="288px">
+</p>
 **Video about this Addon**
 
 VIDEO 
