@@ -7,7 +7,6 @@ That's a simple addon that allows you for plating on Minecraft using redstone. P
 
 <img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/block_view.png" width="288px">
 
-![Plant Block view](./git_data/block_view.png)
 
 A block activated by redstone that plants wheat on a farmland. 
 
@@ -17,17 +16,17 @@ A block activated by redstone that plants wheat on a farmland.
 
 - This block must be fed from below and farmland must be placed upon it. (Block will not be activated if not in the correct structure).
 
-![Structure for Plant Block](git_data/plant_block_area.png)
+<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/plant_block_area.png" width="288px">
 
 **Powering Plant Block**
 
 - Redstone block can be activated exclusively by *redstone wire*, *redstone block* and *redstone torch*.
 
-![Using redstone block for activating](git_data/source1.gif)
+<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/source1.gif" width="288px">
 
-![Using redstone torch activating](git_data/source2.gif)
+<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/source2.gif" width="288px">
 
-![Using redstone wire for activating](git_data/source3.gif)
+<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/source3.gif" width="288px">
 
 - The power signal must last at least 11 game ticks (higher than 0.5 seconds).
 
@@ -41,13 +40,13 @@ A block activated by redstone that plants wheat on a farmland.
 ```
 * You can also get Plant Block in survival mode, using crafting table
 
-![Plant Block recipe, it consist in six cobblestone bloccs, one of redstone, one of iron ingot and one wheat seed. It looks like dispenser recipe](git_data/plant_block_recipe.png)
+<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/plant_block_recipe.png" width="288px">
 
 **Example of Plant Block use**
 
 - A good example of using Plant Block is and automatic wheat farm
 
-![Small wheat farm using Plant Block](git_data/farm.gif)
+<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/farm.gif" width="288px">
 
 **Video about this Addon**
 
