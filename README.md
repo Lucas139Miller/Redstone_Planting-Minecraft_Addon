@@ -58,7 +58,7 @@ A good example of using Plant Block is and automatic wheat farm
 
 **Video about this Addon**
 
-[![Watch the video](Plant_Block_Thumbnail.png)](https://www.youtube.com/watch?v=4-gi_rvKwxU)
+[![Watch the video](https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/Plant_Block_Thumbnail.png)](https://www.youtube.com/watch?v=4-gi_rvKwxU)
  
 
 **WARNING**
