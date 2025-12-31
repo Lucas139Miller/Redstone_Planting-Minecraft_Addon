@@ -58,9 +58,7 @@ A good example of using Plant Block is and automatic wheat farm
 
 **Video about this Addon**
 
-<p align="center">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/4-gi_rvKwxU?si=1QUUlg2DZMoJUGC_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</p>
+[![Watch the video](Plant_Block_Thumbnail.png)](https://www.youtube.com/watch?v=4-gi_rvKwxU)
  
 
 **WARNING**
