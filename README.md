@@ -5,7 +5,7 @@ That's a simple addon that allows you for plating on Minecraft using redstone. P
 
 ## Plant Block
 
-![Plant Block view](./git_data/block_view.png)
+<img align="left" style="width:260px" src="git_data/block_view.png" width="288px">
 
 A block activated by redstone that plants wheat on a farmland. 
 
