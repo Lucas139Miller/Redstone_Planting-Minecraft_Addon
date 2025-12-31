@@ -33,6 +33,7 @@ A block activated by redstone that plants wheat on a farmland.
 <p align="center">
 	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/source3.gif" width="288px">
 </p>
+
 - The power signal must last at least 11 game ticks (higher than 0.5 seconds).
 
 **Acquiring Plant Block**
