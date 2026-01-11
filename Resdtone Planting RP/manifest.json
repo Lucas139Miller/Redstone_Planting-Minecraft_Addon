@@ -2,7 +2,7 @@
     "format_version": 2,
     "header": {
         "name": "Redstone plating - Resources",
-        "description": "Addon for planting with redstone",
+        "description": "Addon for planting with redstone 1.0",
         "uuid": "c62fd6dc-21c2-49e8-943d-51e9e0314384",
         "version": [1, 0, 0],
         "min_engine_version": [1, 21, 0]

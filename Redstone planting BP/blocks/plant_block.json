@@ -34,7 +34,9 @@
           "texture":"plant_block_side"
         }
       },
-      "minecraft:loot": "loot_tables/miller/blocks/plant_block.json"
+      "minecraft:loot": "loot_tables/miller/blocks/plant_block.json"    
+
+
     },
     "permutations": [
       {
