@@ -75,27 +75,146 @@ system.runInterval(()=>{
             )
         ){
             //POWERED BY REDSTONE
-            //world.sendMessage("Conectado à redstone!");
+            world.sendMessage("Conectado à redstone!");
 
             const aboveBlock = block.above();
             const upperBlock = block.above(2);
 
             //CHECKING ABOVE BLOCKS
             if(aboveBlock.typeId === "minecraft:farmland" && upperBlock.typeId === "minecraft:air"){
-                //world.sendMessage("Possível de plantar");
+                world.sendMessage("Possível de plantar");
+                let found = 0;//some seed found
+                for(let k=0; k< 4;k++){
+                    const local = block.location;
+                    let sideBlock;
+                    switch(k){
+                        case 0:
+                            sideBlock = block.dimension.getBlock({x: local.x, y: local.y, z: local.z-1});
+                            break;
+                        case 1:
+                            sideBlock = block.dimension.getBlock({x: local.x-1, y: local.y, z: local.z});
+                            break;
+                        case 2:
+                            sideBlock = block.dimension.getBlock({x: local.x, y: local.y, z: local.z+1});
+                            break;
+                        case 3:
+                            sideBlock = block.dimension.getBlock({x: local.x+1, y: local.y, z: local.z});
+                            break;
+                        default:
+                            sideBlock = block.dimension.getBlock({x: local.x, y: local.y, z: local.z-1});
+                    }
 
-                const local = block.location;
-                //LOCAL TO BE PLANTED
-                const selectedPos = {x: local.x, y: local.y+2, z: local.z};
-                //PLANTING USING COMMAND
-                dimension.runCommand(`setblock ${selectedPos.x} ${selectedPos.y} ${selectedPos.z} wheat ["growth"=0] replace`);
-                //WARNING
-                block.setPermutation(
-                    block.permutation.withState("miller:activated", true)
-                )
-                //world.sendMessage("Bloco de trigo colocado!");
+
+                    if(sideBlock.typeId === "minecraft:hopper"){//Verify if there's a hopper there
+                        //world.sendMessage("Funil Encontrado!");
+                        const inventory = sideBlock.getComponent("minecraft:inventory");
+
+                        facing = sideBlock.
+
+                        if(inventory && inventory.container){//Verify if really there's a inventory on block aside
+                            world.sendMessage("Conteiner Existe!");
+                            const container = inventory.container;
+                            //let found = 0;//was seed found?
+                            
+                            for(let i = 0; i < container.size; i++){//check all hopper inventory
+                                const item = container.getItem(i);//item
+                                if(!item) continue;
+                                //world.sendMessage(`Checando slot ${i}`);
+                                let fruit = "";
+                                if(item.typeId === "minecraft:wheat_seeds"){
+                                    fruit = "wheat";
+                                    found = 1;
+                                }else if(item.typeId === "minecraft:carrot"){
+                                    fruit = "carrots";
+                                    found = 1;
+                                }else if(item.typeId === "minecraft:potato"){
+                                    fruit = "potatoes";
+                                    found = 1;
+                                }else if(item.typeId === "minecraft:beetroot_seeds"){
+                                    fruit = "beetroot";
+                                    found = 1;
+                                }else if(item.typeId === "minecraft:pumpkin_seeds"){
+                                    fruit = "pumpkin_stem";
+                                    found = 1;
+                                }else if(item.typeId === "minecraft:melon_seeds"){
+                                    fruit = "melon_stem";
+                                    found = 1;
+                                }
+                                if(fruit === "")continue;
+
+                                if(item.amount > 1){
+                                    item.amount -=1;
+                                    container.setItem(i, item);
+                                }else{
+                                    container.setItem(i, undefined);
+                                }
+                                //LOCAL TO BE PLANTED
+                                const selectedPos = {x: local.x, y: local.y+2, z: local.z};
+                                //PLANTING USING COMMAND
+                                dimension.runCommand(`setblock ${selectedPos.x} ${selectedPos.y} ${selectedPos.z} ${fruit} ["growth"=0] replace`);
+                                block.setPermutation(
+                                    block.permutation.withState("miller:activated", true)
+                                );
+                                break;
+                                
+                            }
+                        }
+                    }
+                    if(found){
+                        break;
+                    }
+                }                
             }
-
         }
     }
 }, 10);
+
+//Interact
+
+//miecraft:redstone
+
+/*
+minecraft:wheat_seeds
+minecraft:carrot
+minecraft:potato
+minecraft:beetroot_seeds
+minecraft:melon_stem
+minecraft:pumpkin_stem
+
+
+
+
+*/
+
+
+
+/*
+
+switch(k){//hopper facing
+                            case 0://north
+                                if(facing === 2){
+                                    rightDirection = 1;
+                                    world.sendMessage("Direção Correta - SUL");
+                                }
+                                break;
+                            case 1://west
+                                if(facing === 4){
+                                    rightDirection = 1;
+                                    world.sendMessage("Direção Correta - LESTE");
+                                }
+                                break;
+                            case 2://south
+                                if(facing === 3){
+                                    rightDirection = 1;
+                                    world.sendMessage("Direção Correta - NORTE");
+                                }
+                                break;
+                            case 3://east
+                                if(facing === 5){
+                                    rightDirection = 1;
+                                    world.sendMessage("Direção Correta - OESTE");
+                                }
+                                break;
+                        }
+
+*/

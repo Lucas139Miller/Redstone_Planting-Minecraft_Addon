@@ -2,7 +2,7 @@
     "format_version": 2,
     "header": {
         "name": "Redstone plating - Behavior",
-        "description": "Addon for planting with redstone",
+        "description": "Addon for planting with redstone 1.0",
         "uuid": "b950b296-5491-4b00-b58c-7586a97c0b21",
         "version": [1, 0, 0],
         "min_engine_version": [1, 21, 0]
