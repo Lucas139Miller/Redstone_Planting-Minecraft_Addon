@@ -6,19 +6,19 @@
         },
         "tags": ["crafting_table"],
         "pattern": [
-            "#I#",
-            "#W#",
+            "#H#",
+            "#S#",
             "#R#"
         ],
         "key": {
             "#": {
                 "item": "minecraft:cobblestone"
             },
-            "I": {
-                "item": "minecraft:iron_ingot"
+            "S": {
+                "item": "minecraft:stick"
             },
-            "W": {
-                "item": "minecraft:wheat_seeds"
+            "H": {
+                "item": "minecraft:iron_hoe"
             },
             "R": {
                 "item": "minecraft:redstone"

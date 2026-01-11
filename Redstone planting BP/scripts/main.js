@@ -75,14 +75,14 @@ system.runInterval(()=>{
             )
         ){
             //POWERED BY REDSTONE
-            world.sendMessage("Conectado à redstone!");
+            //world.sendMessage("Conectado à redstone!");
 
             const aboveBlock = block.above();
             const upperBlock = block.above(2);
 
             //CHECKING ABOVE BLOCKS
             if(aboveBlock.typeId === "minecraft:farmland" && upperBlock.typeId === "minecraft:air"){
-                world.sendMessage("Possível de plantar");
+                //world.sendMessage("Possível de plantar");
                 let found = 0;//some seed found
                 for(let k=0; k< 4;k++){
                     const local = block.location;
@@ -113,7 +113,7 @@ system.runInterval(()=>{
                         
                         const facing = sideBlock.permutation.getState("facing_direction");
                         //world.sendMessage(`Bloco na Direção ${facing}`)
-                        let rightDirection;
+                        let rightDirection = 0;
                         
                         switch(k){
                             case 0://north
@@ -125,7 +125,7 @@ system.runInterval(()=>{
                             case 1://west
                                 if(facing === 4){
                                     rightDirection = 1;
-                                    world.sendMessage("Direção Correta - LESTE");
+                                    world.sendMessage("Direção Correta - OESTE");
                                 }
                                 break;
                             case 2://south
@@ -137,14 +137,14 @@ system.runInterval(()=>{
                             case 3://east
                                 if(facing === 5){
                                     rightDirection = 1;
-                                    world.sendMessage("Direção Correta - OESTE");
+                                    world.sendMessage("Direção Correta - LESTE");
                                 }
                                 break;
                         }
 
 
-                        if(inventory && inventory.container){//Verify if really there's a inventory on block aside
-                            world.sendMessage("Conteiner Existe!");
+                        if(inventory && inventory.container && rightDirection){//Verify if hopper is in right conditions
+                            //world.sendMessage("Conteiner Existe!");
                             const container = inventory.container;
                             //let found = 0;//was seed found?
                             
