@@ -92,24 +92,56 @@ system.runInterval(()=>{
                             sideBlock = block.dimension.getBlock({x: local.x, y: local.y, z: local.z-1});
                             break;
                         case 1:
-                            sideBlock = block.dimension.getBlock({x: local.x-1, y: local.y, z: local.z});
+                            sideBlock = block.dimension.getBlock({x: local.x+1, y: local.y, z: local.z});
                             break;
                         case 2:
                             sideBlock = block.dimension.getBlock({x: local.x, y: local.y, z: local.z+1});
                             break;
                         case 3:
-                            sideBlock = block.dimension.getBlock({x: local.x+1, y: local.y, z: local.z});
+                            sideBlock = block.dimension.getBlock({x: local.x-1, y: local.y, z: local.z});
                             break;
                         default:
                             sideBlock = block.dimension.getBlock({x: local.x, y: local.y, z: local.z-1});
                     }
 
-
                     if(sideBlock.typeId === "minecraft:hopper"){//Verify if there's a hopper there
                         //world.sendMessage("Funil Encontrado!");
+
                         const inventory = sideBlock.getComponent("minecraft:inventory");
 
-                        facing = sideBlock.
+                        //verifying facing direction
+                        
+                        const facing = sideBlock.permutation.getState("facing_direction");
+                        //world.sendMessage(`Bloco na Direção ${facing}`)
+                        let rightDirection;
+                        
+                        switch(k){
+                            case 0://north
+                                if(facing === 3){
+                                    rightDirection = 1;
+                                    world.sendMessage("Direção Correta - SUL");
+                                }
+                                break;
+                            case 1://west
+                                if(facing === 4){
+                                    rightDirection = 1;
+                                    world.sendMessage("Direção Correta - LESTE");
+                                }
+                                break;
+                            case 2://south
+                                if(facing === 2){
+                                    rightDirection = 1;
+                                    world.sendMessage("Direção Correta - NORTE");
+                                }
+                                break;
+                            case 3://east
+                                if(facing === 5){
+                                    rightDirection = 1;
+                                    world.sendMessage("Direção Correta - OESTE");
+                                }
+                                break;
+                        }
+
 
                         if(inventory && inventory.container){//Verify if really there's a inventory on block aside
                             world.sendMessage("Conteiner Existe!");
