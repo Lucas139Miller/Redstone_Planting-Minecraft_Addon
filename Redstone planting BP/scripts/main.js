@@ -119,31 +119,31 @@ system.runInterval(()=>{
                             case 0://north
                                 if(facing === 3){
                                     rightDirection = 1;
-                                    world.sendMessage("Direção Correta - SUL");
+                                    //world.sendMessage("Direção Correta - SUL");
                                 }
                                 break;
                             case 1://west
                                 if(facing === 4){
                                     rightDirection = 1;
-                                    world.sendMessage("Direção Correta - OESTE");
+                                    //world.sendMessage("Direção Correta - OESTE");
                                 }
                                 break;
                             case 2://south
                                 if(facing === 2){
                                     rightDirection = 1;
-                                    world.sendMessage("Direção Correta - NORTE");
+                                    //world.sendMessage("Direção Correta - NORTE");
                                 }
                                 break;
                             case 3://east
                                 if(facing === 5){
                                     rightDirection = 1;
-                                    world.sendMessage("Direção Correta - LESTE");
+                                    //world.sendMessage("Direção Correta - LESTE");
                                 }
                                 break;
                         }
+                        const hopperStop = sideBlock.permutation.getState("toggle_bit");
 
-
-                        if(inventory && inventory.container && rightDirection){//Verify if hopper is in right conditions
+                        if(inventory && inventory.container && rightDirection && !hopperStop){//Verify if hopper is in right conditions
                             //world.sendMessage("Conteiner Existe!");
                             const container = inventory.container;
                             //let found = 0;//was seed found?
