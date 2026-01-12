@@ -201,52 +201,16 @@ system.runInterval(()=>{
     }
 }, 10);
 
-//Interact
-
-//miecraft:redstone
-
-/*
-minecraft:wheat_seeds
-minecraft:carrot
-minecraft:potato
-minecraft:beetroot_seeds
-minecraft:melon_stem
-minecraft:pumpkin_stem
-
-
-
-
-*/
-
-
-
-/*
-
-switch(k){//hopper facing
-                            case 0://north
-                                if(facing === 2){
-                                    rightDirection = 1;
-                                    world.sendMessage("Direção Correta - SUL");
-                                }
-                                break;
-                            case 1://west
-                                if(facing === 4){
-                                    rightDirection = 1;
-                                    world.sendMessage("Direção Correta - LESTE");
-                                }
-                                break;
-                            case 2://south
-                                if(facing === 3){
-                                    rightDirection = 1;
-                                    world.sendMessage("Direção Correta - NORTE");
-                                }
-                                break;
-                            case 3://east
-                                if(facing === 5){
-                                    rightDirection = 1;
-                                    world.sendMessage("Direção Correta - OESTE");
-                                }
-                                break;
-                        }
+/*REVIEW
+//destroy seed
+            if( upperBlock.typeId === "minecraft:wheat" || 
+            upperBlock.typeId === "minecraft:carrots" ||
+            upperBlock.typeId === "minecraft:potatoes" ||
+            upperBlock.typeId === "minecraft:beetroot" ||
+            upperBlock.typeId === "minecraft:melon_stem" ||
+            upperBlock.typeId === "minecraft:pumpkin_stem" 
+            ){
+                dimension.runCommand(`setblock ${upperBlock.location.x} ${upperBlock.location.y} ${upperBlock.location.z} air destroy`);
+            }
 
 */
