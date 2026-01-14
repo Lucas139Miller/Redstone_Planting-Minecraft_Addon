@@ -18,6 +18,7 @@ pumpikin, melon, beetroot, sugar cane and nether wart.
 is in suitable conditions for planting
 -Now Plant block has a new recipe and really require proper seeds for plating.
 -The own Plant Block can break old plants located on planting area when activated
+-New lang files for Portuguese (Portugal) and Spanish
 
 DESCRIPTION:
 
