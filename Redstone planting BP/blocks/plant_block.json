@@ -73,7 +73,7 @@
             "texture":"powered_plant_block_down"
             },
             "up":{
-              "texture":"powered_plant_block_up"
+              "texture":"plant_block_up"
             },
             "north":{
               "texture":"powered_plant_block_side"

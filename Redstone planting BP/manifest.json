@@ -2,22 +2,22 @@
     "format_version": 2,
     "header": {
         "name": "Redstone plating - Behavior",
-        "description": "Addon for planting with redstone 1.0",
+        "description": "Addon for planting with redstone - Version 1.1",
         "uuid": "b950b296-5491-4b00-b58c-7586a97c0b21",
-        "version": [1, 0, 0],
+        "version": [1, 1, 0],
         "min_engine_version": [1, 21, 0]
     },
     "metadata": {
         "product_type": "addon",
         "authors": [ "Miller" ],
-        "url": "https://www.youtube.com/@LucasMiller-c2k"
+        "url": "https://www.curseforge.com/minecraft-bedrock/addons/redstone-planting"
     },
     "modules": [
         {
             "type": "data",
             "description": "Addon for planting with redstone",
             "uuid": "51b45f93-47d4-4968-a6e9-71dc8dd65a34",
-            "version": [1, 0, 0]
+            "version": [1, 1, 0]
         },
         {
             "type": "script",
@@ -25,16 +25,15 @@
             "entry": "scripts/main.js",
             "description": "main.js - allows Plant BLock to dettect redstone blocks",
             "uuid": "ca71be50-407b-465e-8a45-febbee6c7368",
-            "version": [1, 0, 0]
+            "version": [1, 1, 0]
         }
     ],
     "dependencies": [
         {
             "uuid": "c62fd6dc-21c2-49e8-943d-51e9e0314384",
-            "version": [1, 0, 0]
+            "version": [1, 1, 0]
         },
         {
-            //FOR SCRIPTING API
             "module_name": "@minecraft/server",
             "version": "2.3.0"
         }

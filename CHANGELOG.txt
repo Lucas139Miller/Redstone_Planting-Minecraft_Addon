@@ -1,26 +1,41 @@
 Redstone Planting
 
-[Version: 1.0.0]
+[Version: 1.1.0]
 
 VERSION FEATURES:
 
--Version 1.0.0, adds just a block for planting wheat, you can receive it from
-creative inventory on "items" category, command line "/give @s miller:plant_block"
-and crafting it using crafting table
+-You can plant more!
+-Plant Block now is fair (really consumes seeds)
+-New structure for planting using hopper
+-New recipe for Plant Block
+-Plant Block can break plants
 
--WHAT'S NEW:
-*******
+WHAT'S NEW:
+
+-Version 1.1.0 increase Plant Block functions, once now it can plant wheat, carrots, potatoes, 
+pumpikin, melon, beetroot, sugar cane and nether wart. 
+-Plant Block receive the seed you want to plant in a hopper and consumes it, if terrain
+is in suitable conditions for planting
+-Now Plant block has a new recipe and really require proper seeds for plating.
+-The own Plant Block can break old plants located on planting area when activated
+
 DESCRIPTION:
+
 *******
+
 NOTE:
 
--Minecraft has not support for redstone outside Beta version, so some features 
-was made with "no propper tools for redstone". So you may take care with some 
-details when using this mod:
+-Minecraft has few support for redstone, so some features were made with 
+"no propper tools for redstone". So you may take care with some details when using this addon:
 	>Redstone signal must spend more than 10 tick (time higer than 0.5 seconds)
 	>Oly redstone dust, redstone block and redstone torch can feed PLant Block
 	>Avoid using too much Plant Bloks! It can lag your world - worry only if you use many of them!
 
--At the moment, this addon allows just planting wheat, with not supply. I intend to
-work on this block to make it plant other seeds, add an interface for refuel the seeds you want
-to plant, allow it to connect with hopper and maybe add new tool blocks later
+-I prettend add an invetory interface as an additional way to feed Plant Block with seeds
+
+YOU CAN VISIT:
+
+-Github: https://github.com/Lucas139Miller
+-CurseForge: https://www.curseforge.com/members/the_miller/projects
+-Youtube: https://www.youtube.com/@The_M1ller
+-MCPEDL: https://mcpedl.com/user/themiller/
