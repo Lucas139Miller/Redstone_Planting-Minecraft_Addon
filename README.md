@@ -38,6 +38,8 @@ Redstone block can be activated exclusively by *redstone wire*, *redstone block*
 	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/powering.png" width="288px">
 </p>
 
+* Warning: The power signal must last at least 11 game ticks (higher than 0.5 seconds)
+
 **Positioning Hoppers Correctly**
 
 Position the hoppers is simple, all you need to do is, put it in any side (north, south, west, east), pointing for Plant Block, just like in the image:
@@ -52,8 +54,22 @@ Note that Plant Block can receive more than a hopper at same time, once in diffe
 	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/priority_hopper.png" width="288px">
 </p>
 
+* Warning: When powering Plant Block, take care to not block hopper flow with redstone signal
 
-The power signal must last at least 11 game ticks (higher than 0.5 seconds).
+**Land for Plant Block**
+
+You must give for Plant Block the farm place, and it deppends what you want to plant, you can use **farmland**, **sand block** or **red sand block** and **soul sand**. It works just like the real game planting rules.
+
+<p align="center">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/terrains.jpg" width="288px">
+</p>
+
+* Remember that if you are planting **sugar cane**, also sand you need water for planting it! For farmland plants you don't need water for plant, but plant block will not affect growing rules
+
+**what can I plant using Plant Block?**
+
+Check the list of what Plant Block supports in current version:
+* 
 
 **Acquiring Plant Block**
 
