@@ -4,25 +4,30 @@
 <p align="center">
 	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/Plant_Block_Thumbnail.png" width="550px">
 </p>
+Are you having trouble automating your Minecraft World, because you can't build farms that works using just redstone blocks? So this page is for you!
 
-That's a simple addon that allows you for plating on Minecraft using redstone. Perfect for you that wants to automate yout world using redstone machines.
-1.0 Version adds Plant Block, the one who makes the magic happen.
+That's a simple addon that allows you for plating on Minecraft using redstone. Perfect for you that wants to automate your world in a simple way using redstone machines. For planting it adds Plant Block, the one who makes the magic happen.
 
 ## Plant Block
 <p align="center">
 	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/block_view.png" width="288px">
 </p>
 
-A block activated by redstone that plants wheat on a farmland. 
+Plant block allows you planting a lot of seeds, all you need to do is feed with the seed you want through a hopper, provide the suitable land for the required seed and connect it to redstone.
 
 
 **Structure**
 
 
-This block must be fed from below and farmland must be placed upon it. (Block will not be activated if not in the correct structure).
+To make it works, follow the following structure:
+
 <p align="center">
 	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/plant_block_area.png" width="288px">
 </p>
+
+* The bottom side (red glass) is dedicated for the redstone signal source
+* Put a hopper in any side edges (north, south, west, east) of plant block
+* On the bottom side just put the suitable land for the required seed
 
 **Powering Plant Block**
 
