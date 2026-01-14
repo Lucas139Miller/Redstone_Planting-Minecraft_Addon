@@ -1,4 +1,4 @@
-# Redstone Planting Addon 1.1
+# Redstone Planting Addon 1.1.0
 
 
 <p align="center">
@@ -29,20 +29,29 @@ To make it works, follow the following structure:
 * Put a hopper in any side edges (north, south, west, east) of plant block
 * On the bottom side just put the suitable land for the required seed
 
+Follow for mode details:
+
 **Powering Plant Block**
 
 Redstone block can be activated exclusively by *redstone wire*, *redstone block* and *redstone torch*.
 <p align="center">
-	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/source1.gif" width="288px">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/powering.png" width="288px">
 </p>
 
-<p align="center">
-	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/source2.gif" width="288px">
-</p>
+**Positioning Hoppers Correctly**
+
+Position the hoppers is simple, all you need to do is, put it in any side (north, south, west, east), pointing for Plant Block, just like in the image:
 
 <p align="center">
-	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/source3.gif" width="288px">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/plant_block_hoppers.jpg" width="288px">
 </p>
+
+Note that Plant Block can receive more than a hopper at same time, once in different directions, so it has a priority order for getting the seeds. First to be verified is the south hopper, then west, north and finally east (clockwise). Check it on image:
+
+<p align="center">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/priority_hopper.png" width="288px">
+</p>
+
 
 The power signal must last at least 11 game ticks (higher than 0.5 seconds).
 
