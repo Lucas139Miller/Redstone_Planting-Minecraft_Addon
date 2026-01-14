@@ -2,7 +2,7 @@
 
 
 <p align="center">
-	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/Plant_Block_Thumbnail.png" width="288px">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/Plant_Block_Thumbnail.png" width="550px">
 </p>
 
 That's a simple addon that allows you for plating on Minecraft using redstone. Perfect for you that wants to automate yout world using redstone machines.
