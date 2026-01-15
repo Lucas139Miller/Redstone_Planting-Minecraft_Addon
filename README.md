@@ -35,7 +35,7 @@ Follow for mode details:
 
 Redstone block can be activated exclusively by *redstone wire*, *redstone block* and *redstone torch*.
 <p align="center">
-	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/powering.png" width="288px">
+	<img style="text-align: center" style="width:500px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/powering.png" width="288px">
 </p>
 
 * Warning: The power signal must last at least 11 game ticks (higher than 0.5 seconds)
