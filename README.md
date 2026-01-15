@@ -66,10 +66,28 @@ You must give for Plant Block the farm place, and it deppends what you want to p
 
 * Remember that if you are planting **sugar cane**, also sand you need water for planting it! For farmland plants you don't need water for plant, but plant block will not affect growing rules
 
-**what can I plant using Plant Block?**
+**Example of structure use**
+
+<p align="center">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/example_structure.jpg" width="288px">
+</p>
+
+**What can I plant using Plant Block?**
+
+<p align="center">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/seeds.png" width="288px">
+</p>
+
 
 Check the list of what Plant Block supports in current version:
-* 
+* **wheat** - farmland
+* **pumpkin** - farmland
+* **melon** - farmland
+* **beetroot** - farmland
+* **carrots** - farmland
+* **potatoes** - farmland
+* **sugar cane** - sand or red sand *(with a block or water)*
+* **nether wart** - soul sand
 
 **Acquiring Plant Block**
 
@@ -81,19 +99,28 @@ You can get a plant block:
 ```
 * You can also get Plant Block in survival mode, using crafting table
 <p align="center">
-	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/plant_block_recipe.png" width="288px">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/recipe.png" width="288px">
 </p>
 
 **Example of Plant Block use**
 
-A good example of using Plant Block is and automatic wheat farm
+Demonstration of each seed type plating
+
+<p align="center">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/planting_seeds.gif" width="288px">
+</p>
+* Note that if you activate Plant Block, with a plant in its land, it will break and drop its item
+
+Example of a bigger use of Plant Block
+
 <p align="center">
 	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/farm.gif" width="288px">
 </p>
 
+
 **Video about this Addon**
 
-[![Watch the video](https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/Plant_Block_Thumbnail.png)](https://www.youtube.com/watch?v=4-gi_rvKwxU)
+[![Watch the video](https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/Plant_Block_Thumbnail.png)](https://youtu.be/uE8ukwZbfSs)
  
 
 **WARNING**
