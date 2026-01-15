@@ -104,7 +104,7 @@ You can get a plant block:
 
 **Example of Plant Block use**
 
-Demonstration of each seed type plating
+Demonstration of each seed type plating:
 
 <p align="center">
 	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/planting_seeds.gif" width="500px">
@@ -112,7 +112,7 @@ Demonstration of each seed type plating
 
 * Note that if you activate Plant Block, with a plant in its land, it will break and drop its item
 
-Example of a bigger use of Plant Block
+Example of a bigger use of Plant Block:
 
 <p align="center">
 	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/farm.gif" width="500px">
@@ -126,13 +126,10 @@ Example of a bigger use of Plant Block
 
 **WARNING**
 
-* This Addon requires cheats activated
-* Note that Minecraft Bedrock Edition has no specific redstone support for Addon creators, except for te actual Beta game version (this Addon was not made for Beta version). It was created using "no conventional tools" for redstone, as a result of this, avoid using too much Plant Bloks! It can lag your world - worry only if you use many of them!
-* At the moment, this addon allows just planting wheat, with not supply. I intend to
-work on this block to make it plant other seeds, add an interface for refuel the seeds you want
-to plant, allow it to connect with hopper and maybe add new tool blocks later
+* This Addon requires cheats activated but no experimental features
+* Note that Minecraft Bedrock Edition few redstone support for Addon creators. It was created using "no conventional tools" for redstone, as a result of this, avoid using too much Plant Bloks! It can lag your world - worry only if you use many of them!
 * Feel free for using this Addon and even publish content with this addon, but give me credits for my work
 
 **Dowloading**
 
-You have just to install *RedstonePlanting.mcaddon* and open with minecraft
+You have just to install *Redstone Planting.mcaddon* and open with minecraft
