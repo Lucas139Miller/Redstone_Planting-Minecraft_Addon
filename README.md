@@ -99,7 +99,7 @@ You can get a plant block:
 ```
 * You can also get Plant Block in survival mode, using crafting table
 <p align="center">
-	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/recipe.png" width="288px">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/recipe.png" width="500px">
 </p>
 
 **Example of Plant Block use**
@@ -107,14 +107,14 @@ You can get a plant block:
 Demonstration of each seed type plating
 
 <p align="center">
-	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/planting_seeds.gif" width="288px">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/planting_seeds.gif" width="500px">
 </p>
 * Note that if you activate Plant Block, with a plant in its land, it will break and drop its item
 
 Example of a bigger use of Plant Block
 
 <p align="center">
-	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/farm.gif" width="288px">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/farm.gif" width="500px">
 </p>
 
 
