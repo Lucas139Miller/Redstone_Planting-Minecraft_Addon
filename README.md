@@ -109,6 +109,7 @@ Demonstration of each seed type plating
 <p align="center">
 	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/planting_seeds.gif" width="500px">
 </p>
+
 * Note that if you activate Plant Block, with a plant in its land, it will break and drop its item
 
 Example of a bigger use of Plant Block
