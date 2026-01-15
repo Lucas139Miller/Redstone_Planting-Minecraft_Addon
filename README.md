@@ -22,7 +22,7 @@ Plant block allows you planting a lot of seeds, all you need to do is feed with 
 To make it works, follow the following structure:
 
 <p align="center">
-	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/plant_block_area.png" width="288px">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/plant_block_area.png" width="500px">
 </p>
 
 * The bottom side (red glass) is dedicated for the redstone signal source
@@ -45,13 +45,13 @@ Redstone block can be activated exclusively by *redstone wire*, *redstone block*
 Position the hoppers is simple, all you need to do is, put it in any side (north, south, west, east), pointing for Plant Block, just like in the image:
 
 <p align="center">
-	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/plant_block_hoppers.jpg" width="288px">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/plant_block_hoppers.jpg" width="500px">
 </p>
 
 Note that Plant Block can receive more than a hopper at same time, once in different directions, so it has a priority order for getting the seeds. First to be verified is the south hopper, then west, north and finally east (clockwise). Check it on image:
 
 <p align="center">
-	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/priority_hopper.png" width="288px">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/priority_hopper.png" width="500px">
 </p>
 
 * Warning: When powering Plant Block, take care to not block hopper flow with redstone signal
@@ -61,7 +61,7 @@ Note that Plant Block can receive more than a hopper at same time, once in diffe
 You must give for Plant Block the farm place, and it deppends what you want to plant, you can use **farmland**, **sand block** or **red sand block** and **soul sand**. It works just like the real game planting rules.
 
 <p align="center">
-	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/terrains.jpg" width="288px">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/terrains.jpg" width="500px">
 </p>
 
 * Remember that if you are planting **sugar cane**, also sand you need water for planting it! For farmland plants you don't need water for plant, but plant block will not affect growing rules
@@ -69,13 +69,13 @@ You must give for Plant Block the farm place, and it deppends what you want to p
 **Example of structure use**
 
 <p align="center">
-	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/example_structure.jpg" width="288px">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/example_structure.jpg" width="500px">
 </p>
 
 **What can I plant using Plant Block?**
 
 <p align="center">
-	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/seeds.png" width="288px">
+	<img style="text-align: center" style="width:260px" src="https://raw.githubusercontent.com/Lucas139Miller/Redstone_Planting-Minecraft_Addon/refs/heads/main/git%20_data/seeds.png" width="500px">
 </p>
 
 
