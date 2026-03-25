@@ -26,7 +26,7 @@ To make it works, follow the following structure:
 </p>
 
 * The bottom side (red glass) is dedicated for the redstone signal source
-* Put a hopper in any side edges (red glasses) of plant block (north, south, west, east)
+* Put a hopper in any side edges (blue glasses) of plant block (north, south, west, east)
 * On the upper (green glass) side just put the suitable land for the required seed
 
 Follow for mode details:
